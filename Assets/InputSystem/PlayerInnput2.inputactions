@@ -1,0 +1,84 @@
+{
+    "name": "PlayerInnput2",
+    "maps": [
+        {
+            "name": "Player1",
+            "id": "3e173bf7-29b0-4c48-b479-fb0db8625033",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "00403f3e-0404-4dc4-b805-76a661e15754",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "73be903d-0fd6-4f7b-b369-2ed45fc863a5",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "b5259fb9-20ab-40ce-9415-e72f8bb0b419",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "55404692-de2b-4112-b063-b265b25b125d",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "756cadb9-d010-456a-8895-6bbd2ea85704",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "1f8f92f9-2a2a-4782-9ada-3f29703a2167",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "id": "b3de11d5-ab89-4cb4-89e6-548d3032cdff",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}
