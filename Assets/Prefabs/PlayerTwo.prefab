@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerMovementSpeed: 5
-  PlayerJumpForce: 5
+  PlayerJumpForce: 7
   isJumping: 0
 --- !u!114 &289981446229740227
 MonoBehaviour:
@@ -328,6 +328,6 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: GamePad
-  m_DefaultActionMap: 220dafc7-7ce8-48ec-b650-d36a96471758
+  m_DefaultActionMap: Player1
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 5098179330222474193}
